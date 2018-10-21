@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app-form {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    border: 6px solid #333;
+    transition: border-color 0.40s ease-in-out;
+}
+
+.underweight {
+    border-color: rgb(255, 0, 179);
+}
+
+.overweight {
+    border-color: rgb(255, 94, 0);
+}
+
+.healthy {
+    border-color: rgb(123, 255, 0);
+}
+
+.obese {
+    border-color: rgb(255, 0, 0);
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.input {
+    padding: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #eee;
+    border: 3px solid #eee;
+    background-color: #333;
+    outline: 0;
+    transition: color .40s ease-in-out, border-color .40s ease-in-out;
+}
+
+.input:focus {
+    color: white;
+    border-color: lightblue;
+}
+
+.field {
+    margin-bottom: 12px;
+}
+
+.bmi-display {
+    font-weight: 700;
+    font-size: 20px;
+    color: lightcoral;
+}

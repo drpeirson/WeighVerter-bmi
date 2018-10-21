@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>WeighVerter</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<body >
+    <form class="app-form" action="#" id="page">
+        <div class="fields">
+            <div class="field">
+                <label class="label" for="weight-kg">Weight (KG):</label>
+                <input class="input" type="number" min="0" value="1" id="weight-kg">
+            </div>
+            <div class="field">
+                <label class="label" for="height-cm">Height (M):</label>
+                <input class="input" type="number" min="0" value="1" id="height-cm">
+            </div> 
+        </div>
+        <p class="bmi-display">Your BMI is <span id="bmi-output"></span></p>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
